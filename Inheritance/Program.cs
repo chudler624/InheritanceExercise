@@ -20,6 +20,13 @@ namespace Inheritance
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
 
+            
+            Birds bird1 = new Birds();
+            bird1.canFly = true;
+
+            bird1.canFly();
+            bird1.canBeAPet = true;
+
 
 
 
@@ -28,6 +35,10 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+            Reptiles reptile1 = new Reptiles();
+
+
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
